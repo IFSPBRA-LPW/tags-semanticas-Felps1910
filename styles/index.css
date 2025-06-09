@@ -4,13 +4,55 @@
     font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
-    color : #333333;
-    background-color: #f9f8fA;
     line-height: 1.6;
 }
-
+body{
+    background-color:white;
+    color: #333;
+    line-height:1.6;
+}
+main{
+    margin: auto;
+    max-width: 800px;
+}
 .header-container{
     background-color: #0077cc;
-    color: #ffffff;
+    color:white;
     text-align: center;
+    padding: 2px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+.link:hover{
+    color:rgb(30, 201, 207);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.subtitle{
+    margin: 20px 0px;
+}
+.list-ativ{
+    margin: 20px;
+}
+
+.citacoes{
+    background-color: #e9ecef;
+    border-left: 5px solid rgb(0, 110, 255);
+    margin-bottom: 20px;
+    padding: 10px;
+    font-style: italic;
+}
+footer{
+    color: white;
+    text-align: center;
+    background-color: #333333;
+    padding: 20px;
+    margin-top: 40px
 }
